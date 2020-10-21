@@ -71,7 +71,7 @@ function draw() {
    b11.mousePressed(t11);
   b11.position(115,430);
 
-  if (timer == 0) {
+  if (timer == -1) {
     text("over", 200, 150);
     timer+=1
     noLoop();
